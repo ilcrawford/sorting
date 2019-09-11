@@ -13,7 +13,7 @@ Will be implementing the following algorithms
 - Heap Sort
 - Cocktail Shaker Sort
 - Bogo Sort
-- Bubble Sort
+- &#x2713; Bubble Sort
 - Odd-Even Sort
 - Counting Sort
 - Bitonic Merge Sort
