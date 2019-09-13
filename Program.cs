@@ -7,13 +7,10 @@ namespace sorting
         static void Main(string[] args)
         {
             int[] list = new[]{ 38, 92, 28, 3, 71, 50, 14, 24, 20, 66, 70, 45, 17, 9, 99, 38 };
-            Console.WriteLine("Hello World!");
-            ISort sort = new bubbleSort();
+            utils.print(list);
+            ISort sort = new selectionSort();
             int[] newList = sort.Sort(list);
-            for (int i = 0;i<list.Length;i++)
-            {
-                Console.WriteLine(list[i]);
-            }
+            utils.print(newList);
             Console.Read();
         }
     }
