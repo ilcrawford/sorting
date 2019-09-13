@@ -4,7 +4,7 @@ Following along with Matthew Jones at https://exceptionnotfound.net/tag/sorting/
 
 Will be implementing the following algorithms
 
-- Selection Sort
+- &#x2713; Selection Sort
 - Merge Sort
 - Insertion Sort
 - Shell Sort

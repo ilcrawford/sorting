@@ -8,7 +8,7 @@ namespace sorting
         {
             int[] list = new[]{ 38, 92, 28, 3, 71, 50, 14, 24, 20, 66, 70, 45, 17, 9, 99, 38 };
             utils.print(list);
-            ISort sort = new selectionSort();
+            ISort sort = new bubbleSort();
             int[] newList = sort.Sort(list);
             utils.print(newList);
             Console.Read();
